@@ -1,23 +1,23 @@
 const footerLinks = [
-  ['About', 'https://about.twitter.com'],
-  ['Help Center', 'https://help.twitter.com'],
-  ['Privacy Policy', 'https://twitter.com/tos'],
-  ['Cookie Policy', 'https://support.twitter.com/articles/20170514'],
-  ['Accessibility', 'https://help.twitter.com/resources/accessibility'],
+  ['About', 'https://satellite.water.blog/about'],
+  ['Help Center', 'https://satellite.water.blog/help'],
+  ['Privacy Policy', 'https://satellite.water.blog/privacy-policy'],
+  ['Cookie Policy', 'https://satellite.water.blog/cookie-policy'],
+  ['Accessibility', 'https://satellite.water.blog/accessibility'],
   [
     'Ads Info',
-    'https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html'
+    'https://satellite.water.blog/business-ads'
   ],
-  ['Blog', 'https://blog.twitter.com'],
-  ['Status', 'https://status.twitterstat.us'],
-  ['Careers', 'https://careers.twitter.com'],
-  ['Brand Resources', 'https://about.twitter.com/press/brand-assets'],
-  ['Advertising', 'https://ads.twitter.com/?ref=gl-tw-tw-twitter-advertise'],
-  ['Marketing', 'https://marketing.twitter.com'],
-  ['Twitter for Business', 'https://business.twitter.com'],
-  ['Developers', 'https://developer.twitter.com'],
-  ['Directory', 'https://twitter.com/i/directory/profiles'],
-  ['Settings', 'https://twitter.com/settings']
+  ['Blog', 'https://satellite.water.blog/blog'],
+  ['Status', 'https://satellite.water.blog/status'],
+  ['Careers', 'https://satellite.water.blog/careers'],
+  ['Brand Resources', 'https://satellite.water.blog/brand-resources'],
+  ['Advertising', 'https://satellite.water.blog/advertising'],
+  ['Marketing', 'https://satellite.water.blog/marketing'],
+  ['Satellite for Business', 'https://satellite.water.blog/satellite-for-business'],
+  ['Developers', 'https://satellite.water.blog/developer'],
+  ['Directory', 'http://satellite.water.blog/directory'],
+  ['Settings', 'http://satellite.water.blog/settings']
 ] as const;
 
 export function LoginFooter(): JSX.Element {
@@ -35,7 +35,7 @@ export function LoginFooter(): JSX.Element {
             {linkName}
           </a>
         ))}
-        <p>© 2022 Twitter, Inc.</p>
+        <p>© 2024 Satellite...</p>
       </nav>
     </footer>
   );
