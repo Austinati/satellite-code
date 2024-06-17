@@ -1,11 +1,11 @@
 const footerLinks = [
-  ['Terms of Service', 'https://twitter.com/tos'],
-  ['Privacy Policy', 'https://twitter.com/privacy'],
-  ['Cookie Policy', 'https://support.twitter.com/articles/20170514'],
-  ['Accessibility', 'https://help.twitter.com/resources/accessibility'],
+  ['Terms of Service', 'https://satellite.water.blog/terms-of-service'],
+  ['Privacy Policy', 'https://satellite.water.blog/privacy-policy'],
+  ['Cookie Policy', 'https://satellite.water.blog/cookie-policy'],
+  ['Accessibility', 'https://satellite.water.blog/accessibility'],
   [
     'Ads Info',
-    'https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html'
+    'https://satellite.water.blog/business-ads'
   ]
 ] as const;
 
@@ -28,7 +28,7 @@ export function AsideFooter(): JSX.Element {
           </a>
         ))}
       </nav>
-      <p>© 2022 Twitter, Inc.</p>
+      <p>© 2024 </p>
     </footer>
   );
 }
